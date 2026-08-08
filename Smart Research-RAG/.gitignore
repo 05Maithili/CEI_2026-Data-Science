@@ -1,0 +1,25 @@
+# Environments
+venv/
+env/
+ENV/
+.venv
+
+# Secrets & Local Config
+.env
+*.env
+
+# Python Bytecode & Caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Local Vector Databases & Indexes
+faiss_store/
+chroma_store/
+
+# IDE & OS Files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

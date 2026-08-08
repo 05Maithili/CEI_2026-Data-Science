@@ -1,0 +1,18 @@
+# Environments & Secrets
+Smart Research-RAG/venv/
+Smart Research-RAG/.env
+Smart Research-RAG/*.env
+
+# Python Bytecode & Cache
+Smart Research-RAG/__pycache__/
+Smart Research-RAG/*.py[cod]
+
+# Local Vector Databases
+Smart Research-RAG/faiss_store/
+Smart Research-RAG/chroma_store/
+
+# IDE & System Files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
